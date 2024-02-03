@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="257dp"
+        android:background="#03A9F4"
+        android:id="@+id/call"
+        android:hint="CALL"
+        android:textColorHint="@color/black"
+        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="#03A9F4"
+        android:id="@+id/location"
+        android:hint="Location"
+        android:textColorHint="@color/black"
+        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

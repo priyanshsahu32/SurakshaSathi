@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="QUIZ"
+
+        app:showAsAction="always"
+        android:id="@+id/quiz"
+
+
+
+        ></item>
+    <item
+        android:title="share"
+        app:showAsAction="always"
+        android:id="@+id/share_menu"
+        android:icon="@drawable/baseline_share_24"
+
+
+        ></item>
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213601685293",
+    "project_id": "suraksha-sathi-ceb82",
+    "storage_bucket": "suraksha-sathi-ceb82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213601685293:android:750178d93777ece0d44da4",
+        "android_client_info": {
+          "package_name": "com.pcsahu.surakshasathi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAnvqdIzh5bJCNRbHorplHCdU4KC-iyRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
