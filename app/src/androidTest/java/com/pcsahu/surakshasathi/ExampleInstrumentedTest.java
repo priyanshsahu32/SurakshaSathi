@@ -1,4 +1,4 @@
-package com.pcsahu.surakshasathi;
+package com.surakshasathi;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals( "com.pcsahu.surakshasathi", appContext.getPackageName() );
+        assertEquals( "com.surakshasathi", appContext.getPackageName() );
     }
 }

@@ -1,4 +1,4 @@
-package com.pcsahu.surakshasathi;
+package com.surakshasathi;
 
 import org.junit.Test;
 

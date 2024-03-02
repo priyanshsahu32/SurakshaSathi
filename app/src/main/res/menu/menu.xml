@@ -1,47 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
     <group
         android:id="@+id/group1"
         android:checkableBehavior="single"
 
 
+
         >
 
-        <item
-            android:title="Children Rights"
+<!--        <item-->
+<!--            android:title="Children Rights"-->
 
-            android:id="@+id/child_right"
-
-
-            android:icon="@drawable/rights"
-            ></item>
-
-        <item
-            android:title="Report Problem"
-            android:id="@+id/action_report"
-            android:icon="@drawable/complain"
-            ></item>
-
-        <item
-            android:title="Helpline Number"
-            android:id="@+id/action_correction"
-
-            android:icon="@drawable/helpline"
-            ></item>
-
-       <item
-            android:title="Review"
-            android:id="@+id/review"
-
-           ></item>
+<!--            android:id="@+id/child_right"-->
 
 
+<!--            android:icon="@drawable/rights"-->
+<!--            ></item>-->
 
-        <item
-            android:title="Emergency Button"
-            android:id="@+id/emergency"
-            android:icon="@drawable/emergency"
-            ></item>
+<!--        <item-->
+<!--            android:title="Report Problem"-->
+<!--            android:id="@+id/action_report"-->
+<!--            android:icon="@drawable/complain"-->
+<!--            ></item>-->
+
+<!--        <item-->
+<!--            android:title="Helpline Number"-->
+<!--            android:id="@+id/action_correction"-->
+
+<!--            android:icon="@drawable/helpline"-->
+<!--            ></item>-->
+
+<!--       <item-->
+<!--            android:title="Review"-->
+<!--            android:id="@+id/review"-->
+
+<!--           ></item>-->
+
+
+
+<!--        <item-->
+<!--            android:title="Emergency Button"-->
+<!--            android:id="@+id/emergency"-->
+<!--            android:icon="@drawable/emergency"-->
+<!--            ></item>-->
 
 
     </group>

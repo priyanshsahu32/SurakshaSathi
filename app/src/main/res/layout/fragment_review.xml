@@ -2,32 +2,42 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#D4E4D0"
     android:layout_height="match_parent"
     tools:context=".Review">
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-
         android:id="@+id/reviewtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:hint="Enter Review"
-        android:textColorHint="@color/black"
-        android:textStyle="bold"
-        android:layout_margin="20dp"
+        android:textColor="@color/black"
 
-        ></EditText>
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
 
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reviewsub"
         android:layout_width="wrap_content"
         android:layout_height="78dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="91dp"
+        android:layout_marginStart="97dp"
+        android:textColor="@color/black"
         android:layout_marginBottom="87dp"
-        android:text="SUBMIT REVIEW"
-        android:id="@+id/reviewsub"
-        android:textSize="25dp">
+        android:background="@drawable/round_cornot02"
+        android:padding="10dp"
+        android:text="Submit Review"
+
+        android:textSize="23dp">
 
     </androidx.appcompat.widget.AppCompatButton>
 

@@ -1,40 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ReportFragment">
 
     <EditText
-        android:id="@+id/compliantext"
-        android:layout_width="match_parent"
-        android:layout_height="145dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="281dp"
-        android:hint="enter text"
-        android:textColor="#3F51B5" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+        android:id="@+id/complaintText"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="66dp"
-        android:id="@+id/submit"
-        android:hint="SUBMIT"
-        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
-
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter your Complaint"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="141dp"
-        android:layout_height="72dp"
-        android:layout_alignParentTop="true"
+        android:id="@+id/submit"
+        android:layout_width="208dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="SUBMIT"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="39dp"
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/fetch_complaints"
-        android:text="Fetch all"></androidx.appcompat.widget.AppCompatButton>
-</RelativeLayout>
+        android:layout_width="224dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_cornot02"
+        android:padding="13dp"
+        android:text="Manage\nComplaint"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineSubmit" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineSubmit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

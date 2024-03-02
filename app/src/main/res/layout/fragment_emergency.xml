@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#222020"
     tools:context=".Emergency">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="257dp"
-        android:background="#03A9F4"
-        android:id="@+id/call"
-        android:hint="CALL"
-        android:textColorHint="@color/black"
-        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
+        android:orientation="vertical"
+        android:gravity="center">
 
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/call"
+            android:contentDescription="jgahsg"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
-        android:background="#03A9F4"
-        android:id="@+id/location"
-        android:hint="Location"
-        android:textColorHint="@color/black"
-        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="CALL"
+            android:textStyle="bold"
+            android:textColor="#EDE2E2"
+            android:textSize="20sp"/>
 
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/location"
+            android:contentDescription="hieohwi"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/location"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Share Location"
+            android:textStyle="bold"
+            android:textColor="#EDE2E2"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

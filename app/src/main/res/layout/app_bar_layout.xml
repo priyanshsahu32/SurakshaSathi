@@ -9,7 +9,8 @@
     app:layout_scrollFlags="scroll|enterAlways"
     android:id="@+id/toolbar"
     android:elevation="10dp"
-    android:background="#555B81"
+    android:background="#4D589F"
+
     tools:menu="@menu/main_menu"
     >
 
