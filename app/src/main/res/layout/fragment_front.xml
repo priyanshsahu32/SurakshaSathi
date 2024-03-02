@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F8"
+    tools:context=".Front">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/chatrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chatimage"
+                android:text=" Children Rights"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageButton
+                android:id="@+id/chatimage"
+                android:layout_width="100dp"
+                android:layout_height="95dp"
+                android:layout_centerHorizontal="true"
+
+
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/childrenrights"
+                android:contentDescription="ngakdg"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/childrightrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="45dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/childrightimage"
+                android:layout_centerHorizontal="true"
+                android:text="    Parental \n Involvement"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/childrightimage"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/parental"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/complainrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chatrelative"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reportimage"
+                android:layout_marginTop="30dp"
+                android:text="Emergency"
+
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/reportimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/emr"
+                android:contentDescription="dgksa"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/helplinerelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/childrightrelative"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helpineimage"
+                android:layout_centerHorizontal="true"
+                android:text="Safe Chatroom"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/helpineimage"
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+
+                android:background="@drawable/complaint"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/emergencyRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complainrelative"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="60dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emergencyImage"
+                android:text="QueryMate"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/emergencyImage"
+                android:layout_width="70dp"
+                android:layout_height="79dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/chatbot"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/helplinerelative"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="46dp"
+            android:layout_marginRight="58dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/REVIEWIMAGE"
+                android:layout_centerHorizontal="true"
+                android:text="Helpline"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/REVIEWIMAGE"
+                android:layout_width="85dp"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/helplne"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/emergencyRelative"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="57dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parental"
+                android:layout_centerHorizontal="true"
+                android:text="Feedback"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/parental"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/review"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/quizrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emergencyRelative"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="58dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quizimage"
+                android:layout_centerHorizontal="true"
+
+                android:text="Quiz"
+                android:layout_marginTop="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="21dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageButton
+                android:id="@+id/quizimage"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/quiz"
+                android:contentDescription="nigdhi"></ImageButton>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

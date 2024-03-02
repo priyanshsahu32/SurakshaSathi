@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFD1DE"
+    android:layout_height="match_parent"
+    tools:context=".ParentalInvolvement">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="13dp"
+
+        android:layout_height="match_parent">
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+
+            android:id="@+id/parentcontent"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+
+
+            >
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@+id/parentcontent"
+            android:textSize="19dp"
+            android:id="@+id/hd"
+            android:text="✅Parents ke liye Mahatvapurn Jankari✅
+"
+            ></TextView>
+
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+
+            android:id="@+id/parentcontent2"
+            android:layout_below="@+id/hd"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+
+
+            >
+
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
